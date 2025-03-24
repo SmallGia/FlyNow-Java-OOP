@@ -35,4 +35,4 @@ cd FlyNow-Java-OOP
 
 ## 📩 Đóng góp & Liên hệ  
 Nếu bạn muốn đóng góp cho dự án, hãy fork repo và tạo pull request!  
-📧 Liên hệ: (Thêm thông tin nếu cần)  
+📧 Liên hệ: thp.gia@gmail.com 
