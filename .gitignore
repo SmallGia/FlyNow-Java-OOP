@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+src/background/background.gif
+src/background/nen.gif
