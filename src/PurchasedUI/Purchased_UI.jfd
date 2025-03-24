@@ -1,0 +1,428 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"resizable": false
+			"maximumSize": new java.awt.Dimension( 1280, 720 )
+			"minimumSize": new java.awt.Dimension( 1280, 720 )
+			"preferredSize": new java.awt.Dimension( 1280, 720 )
+			"title": "Fly Now  Official 1.0"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/plane_whitebackground.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 1280
+				"height": 690
+				"x": 0
+				"y": 680
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel2"
+				"border": new javax.swing.border.BevelBorder( 1, sfield java.awt.Color cyan, sfield java.awt.Color blue, sfield java.awt.Color cyan, sfield java.awt.Color blue )
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+					name: "kButton1"
+					"text": "QUAY LẠI MÀN HÌNH CHÍNH"
+					"font": new java.awt.Font( "Consolas", 1, 20 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton1", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 25
+					"y": 10
+					"width": 300
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/plane_175x135.png" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 165
+					"height": 80
+					"x": 480
+					"y": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "VÉ ĐÃ ĐẶT"
+					"font": new java.awt.Font( "Consolas", 3, 30 )
+					"horizontalAlignment": 11
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 740
+					"y": 15
+					"width": 490
+					"height": 45
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KGradientPanel" ) {
+					name: "kGradientPanel1"
+					"kStartColor": sfield java.awt.Color white
+					"kEndColor": sfield java.awt.Color cyan
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 1240
+					"height": 75
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "Panel1"
+					"border": new javax.swing.border.BevelBorder( 1, sfield java.awt.Color cyan, sfield java.awt.Color blue, sfield java.awt.Color cyan, sfield java.awt.Color blue )
+					"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+						"editable": false
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"font": &Font0 new java.awt.Font( "Segoe UI", 1, 16 )
+						"horizontalAlignment": 0
+						"background": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 50
+						"width": 150
+						"height": 40
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 280
+						"y": 45
+						"width": 150
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"font": new java.awt.Font( "Segoe UI", 1, 12 )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/arrow.png" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 205
+						"y": 45
+						"width": 60
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Chuyến bay"
+						"font": &Font1 new java.awt.Font( "Consolas", 1, 18 )
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 150
+						"y": 15
+						"width": 150
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Hãng bay"
+						"font": #Font1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 610
+						"y": 15
+						"width": 150
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField3"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 610
+						"y": 50
+						"width": 150
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "Khởi hành lúc"
+						"font": #Font1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 815
+						"y": 15
+						"width": 150
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField4"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 805
+						"y": 50
+						"width": 175
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField6"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 1015
+						"y": 50
+						"width": 155
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "Đến lúc"
+						"font": #Font1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 150
+						"height": 30
+						"x": 1015
+						"y": 15
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "Hạng vé"
+						"font": #Font1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 130
+						"width": 150
+						"height": 30
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField8"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 20
+						"y": 165
+						"width": 150
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField9"
+						"editable": false
+						"font": #Font0
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"horizontalAlignment": 0
+						"background": #Color1
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 280
+						"y": 165
+						"width": 150
+						"height": 45
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "Số vé"
+						"font": #Font1
+						"horizontalAlignment": 0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 150
+						"height": 30
+						"x": 280
+						"y": 130
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel4"
+						"border": &BevelBorder0 new javax.swing.border.BevelBorder( 1, sfield java.awt.Color cyan, sfield java.awt.Color blue, sfield java.awt.Color cyan, sfield java.awt.Color blue )
+						"background": #Color0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 10
+						"y": 10
+						"height": 100
+						"width": 440
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel5"
+						"border": #BevelBorder0
+						"background": #Color0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 440
+						"height": 100
+						"x": 10
+						"y": 125
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel6"
+						"border": #BevelBorder0
+						"background": #Color0
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField10"
+							"editable": false
+							"font": #Font0
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"horizontalAlignment": 0
+							"background": #Color1
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"x": 205
+							"y": 45
+							"width": 150
+							"height": 45
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label10"
+							"text": "Thành tiền"
+							"font": #Font1
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"width": 150
+							"height": 30
+							"x": 205
+							"y": 10
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label11"
+							"text": "Hình thức thanh toán"
+							"font": #Font1
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"width": 220
+							"height": 30
+							"x": 375
+							"y": 10
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField11"
+							"editable": false
+							"font": #Font0
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"horizontalAlignment": 0
+							"background": #Color1
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"width": 200
+							"height": 45
+							"x": 385
+							"y": 45
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label12"
+							"text": "Mã vé"
+							"font": #Font1
+							"horizontalAlignment": 0
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"width": 150
+							"height": 30
+							"x": 15
+							"y": 10
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "textField12"
+							"editable": false
+							"font": #Font0
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"horizontalAlignment": 0
+							"background": #Color1
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+							"width": 150
+							"height": 45
+							"x": 15
+							"y": 45
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 600
+						"height": 100
+						"x": 595
+						"y": 125
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "panel7"
+						"border": #BevelBorder0
+						"background": #Color0
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 600
+						"height": 100
+						"x": 595
+						"y": 10
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 1210
+					"height": 235
+					"x": 10
+					"y": 90
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTable" ) {
+						name: "table1"
+						"font": new java.awt.Font( "Consolas", 1, 14 )
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 5
+					"y": 390
+					"width": 1230
+					"height": 265
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/reload.png" )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"focusable": false
+					"focusPainted": false
+					"borderPainted": false
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 1155
+					"y": 330
+					"width": 60
+					"height": 55
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+					name: "kButton2"
+					"text": "THÔNG TIN VÉ"
+					"font": new java.awt.Font( "Consolas", 1, 20 )
+					"kBorderRadius": 30
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton2", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 20
+					"y": 335
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+					name: "kButton3"
+					"text": "SẮP XẾP THEO GIÁ TIỀN"
+					"font": new java.awt.Font( "Consolas", 1, 20 )
+					"kBorderRadius": 30
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton3", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 380
+					"y": 335
+					"width": 275
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+					name: "kButton4"
+					"text": "SẮP XẾP THEO THỜI GIAN BAY"
+					"font": new java.awt.Font( "Consolas", 1, 20 )
+					"kBorderRadius": 30
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton4", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 760
+					"y": 335
+					"width": 330
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 15
+				"y": 15
+				"height": 660
+				"width": 1240
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 5 )
+			"size": new java.awt.Dimension( 1280, 720 )
+		} )
+	}
+}

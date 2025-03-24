@@ -1,0 +1,175 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"resizable": false
+			"maximumSize": new java.awt.Dimension( 1280, 720 )
+			"minimumSize": new java.awt.Dimension( 1280, 720 )
+			"preferredSize": new java.awt.Dimension( 1280, 720 )
+			"background": sfield java.awt.Color black
+			"title": "Fly Now  Official 1.0"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/plane_whitebackground.png" )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "USERNAME"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+					"horizontalAlignment": 0
+					"foreground": &Color0 new java.awt.Color( 255, 204, 204, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 90
+					"width": 1280
+					"height": 35
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "CHÀO MỪNG ĐÃ TRỞ LẠI"
+					"font": new java.awt.Font( "Consolas", 1, 40 )
+					"horizontalAlignment": 0
+					"foreground": #Color0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 1280
+					"height": 90
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KGradientPanel" ) {
+					name: "kGradientPanel1"
+					"kStartColor": sfield java.awt.Color cyan
+					"kEndColor": new java.awt.Color( 153, 153, 255, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 0
+					"width": 1280
+					"height": 135
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/plane.png" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 395
+					"y": 170
+					"width": 475
+					"height": 325
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/profile3.png" )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"toolTipText": "profile"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 220
+					"y": 200
+					"width": 100
+					"height": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "THÔNG TIN"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 335
+					"y": 230
+					"width": 160
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/Thiết kế chưa có tên (2)/pur.png" )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 220
+					"y": 415
+					"height": 100
+					"width": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "VÉ ĐÃ ĐẶT"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 345
+					"y": 450
+					"width": 175
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/Thiết kế chưa có tên (2)/getticket.png" )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 790
+					"y": 200
+					"width": 100
+					"height": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "ĐẶT VÉ"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 915
+					"y": 235
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 1, false )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Icon/Thiết kế chưa có tên (2)/contact.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 795
+					"y": 415
+					"height": 100
+					"width": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "LIÊN HỆ"
+					"font": new java.awt.Font( "Consolas", 1, 30 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 910
+					"y": 445
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Từ Đông Nam Á Đến Thế Giới Trong Tầm Tay Bạn"
+					"font": new java.awt.Font( "Consolas", 3, 30 )
+					"horizontalAlignment": 0
+					"foreground": new java.awt.Color( 255, 204, 204, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 625
+					"width": 865
+					"height": 70
+				} )
+				add( new FormComponent( "com.k33ptoo.components.KGradientPanel" ) {
+					name: "kGradientPanel2"
+					"kStartColor": sfield java.awt.Color cyan
+					"kEndColor": new java.awt.Color( 102, 102, 255, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 0
+					"y": 620
+					"width": 1285
+					"height": 75
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 695
+				"width": 1280
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 1280, 720 )
+		} )
+	}
+}

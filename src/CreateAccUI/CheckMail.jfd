@@ -1,0 +1,70 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"maximumSize": new java.awt.Dimension( 400, 300 )
+			"minimumSize": new java.awt.Dimension( 400, 300 )
+			"preferredSize": new java.awt.Dimension( 400, 300 )
+			"resizable": false
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/plane_whitebackground.png" )
+			"title": "Fly Now  Official 1.0"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "MÃ XÁC NHẬN"
+				"font": new java.awt.Font( "Consolas", 1, 30 )
+				"horizontalAlignment": 0
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 75
+				"y": 105
+				"width": 235
+				"height": 45
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "Text_code"
+				"font": new java.awt.Font( "Consolas", 0, 16 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 330
+				"height": 40
+				"x": 35
+				"y": 160
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/Icon/Logo/IconLogo.png" )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 145
+				"y": 0
+				"width": 105
+				"height": 110
+			} )
+			add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+				name: "kButton1"
+				"text": "HỦY"
+				"font": &Font0 new java.awt.Font( "Consolas", 1, 16 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton1", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 215
+				"y": 225
+				"width": 100
+				"height": 35
+			} )
+			add( new FormComponent( "com.k33ptoo.components.KButton" ) {
+				name: "kButton2"
+				"text": "XÁC NHẬN"
+				"font": #Font0
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "kButton2", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 100
+				"height": 35
+				"x": 75
+				"y": 225
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 55, 30 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
