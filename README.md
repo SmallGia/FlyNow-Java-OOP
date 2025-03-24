@@ -1,12 +1,58 @@
 # FlyNow - Java OOP ✈️  
 
-FlyNow là một ứng dụng đặt vé máy bay được phát triển bằng Java theo mô hình lập trình hướng đối tượng (OOP). Dự án giúp người dùng dễ dàng tìm kiếm, đặt vé, và quản lý thông tin chuyến bay một cách hiệu quả.  
+FlyNow là **dự án cuối kỳ** của môn lập trình hướng đối tượng (OOP) tại trường đại học.  
+Dự án được phát triển bằng Java với mục tiêu xây dựng một hệ thống đặt vé máy bay, giúp người dùng dễ dàng tìm kiếm chuyến bay, đặt vé và quản lý thông tin một cách hiệu quả.  
 
 ## 🛠️ Công nghệ sử dụng  
 - **Ngôn ngữ:** Java  
 - **Mô hình:** Lập trình hướng đối tượng (OOP)  
-- **Cơ sở dữ liệu:** (Cập nhật nếu có)  
-- **Thư viện hỗ trợ:** (Liệt kê nếu có)  
+- **Giao diện:** Java Swing, JavaFX  
+- **Cơ sở dữ liệu:** Microsoft SQL Server  
+
+## 📚 Thư viện hỗ trợ  
+
+### **1. JavaFX**  
+- `javafx-sdk-22.0.1` → Hỗ trợ GUI trong Java.
+
+### **2. Jakarta Mail**  
+- `jakarta.mail-2.0.1.jar`  
+- `jakarta.activation-2.0.1.jar`  
+  → Dùng để gửi email trong Java.
+
+### **3. JDatePicker**  
+- `jdatepicker-1.3.4.jar`  
+  → Dùng để tạo DatePicker (chọn ngày) trong Java Swing.
+
+### **4. JGoodies** (Hỗ trợ UI & Layout trong Swing)  
+- `jgoodies-common.jar`  
+- `jgoodies-forms.jar`  
+- `jgoodies-common-javadoc.jar`  
+- `jgoodies-common-sources.jar`  
+- `jgoodies-forms-javadoc.jar`  
+- `jgoodies-forms-sources.jar`  
+
+### **5. KControls** (Bộ điều khiển UI)  
+- `KControls-2.0.jar`
+
+### **6. KGradientPanel**  
+- `KGradientPanel.jar`  
+  → Hỗ trợ tạo hiệu ứng gradient trong Java Swing.
+
+### **7. LGoodDatePicker**  
+- `LGoodDatePicker-11.2.1.jar`  
+  → Thư viện chọn ngày với nhiều tính năng nâng cao.
+
+### **8. Microsoft SQL JDBC Driver**  
+- `mssql-jdbc-12.6.1.jre11.jar`  
+  → Hỗ trợ kết nối SQL Server với Java.
+
+### **9. OpenJFX**  
+- `openjfx-22.0.1_windows-x64-bin-sdk.zip`  
+  → JavaFX SDK để phát triển giao diện đồ họa.
+
+### **10. Timing Framework**  
+- `TimingFramework-0.55.jar`  
+  → Hỗ trợ animation và hiệu ứng trong Java Swing. 
 
 ## 📥 Cách tải xuống và chạy dự án  
 
